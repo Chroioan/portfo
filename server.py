@@ -11,9 +11,9 @@ from flask import Flask, render_template, request, redirect
 app = Flask(__name__)
 
 # firstTest
-@app.route('/')
-def hello_word():
-    return render_template('index1.html')
+# @app.route('/')
+# def hello_word():
+#     return render_template('index1.html')
 
 # # Univers Web
 # @app.route('/index.html')
